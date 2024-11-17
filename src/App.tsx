@@ -18,7 +18,7 @@ function App() {
       <header className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <Globe2 className="w-8 h-8 text-primary" />
-          <span className="text-xl font-bold">SpeakAI</span>
+          <span className="text-xl font-bold">Yellow</span>
         </div>
         <Button variant="ghost" onClick={openRegisterModal}>Contact Us</Button>
       </header>
@@ -30,7 +30,7 @@ function App() {
             Speak Buisness English Confidently in Every Virtual Meeting 
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12">
-            Access real-time transcription, intelligent suggestions, and personalized pronunciation feedback during your meetings. Build confidence and enhance your English skills effortlessly
+            Access real-time transcription, intelligent suggestions during your meetings.
           </p>
           
           {/* Pre-registration form */}
@@ -41,7 +41,7 @@ function App() {
           {/* Early bird offer */}
           <div className="inline-block rounded-full bg-white/10 backdrop-blur-lg px-6 py-2 text-sm text-gray-300">
             <span className="text-emerald-400 font-semibold">Limited Time Offer:</span>
-            {' '}Get lifetime access at 90% off
+            {' '}Get lifetime access for 50$ only
           </div>
         </div>
       </section>
@@ -72,7 +72,7 @@ function App() {
 
       {/* Footer */}
       <footer className="container mx-auto px-4 py-8 text-center text-gray-400 border-t border-white/10">
-        <p>© 2024 SpeakAI. All rights reserved.</p>
+        <p>© 2024 Yellow. All rights reserved.</p>
       </footer>
 
       <RegisterModal 
