@@ -41,7 +41,7 @@ function App() {
           {/* Early bird offer */}
           <div className="inline-block rounded-full bg-white/10 backdrop-blur-lg px-6 py-2 text-sm text-gray-300">
             <span className="text-emerald-400 font-semibold">Limited Time Offer:</span>
-            {' '}Get lifetime access for 50$ only
+            {' '}Get lifetime access for 79€
           </div>
         </div>
       </section>
